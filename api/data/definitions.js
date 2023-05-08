@@ -96,8 +96,30 @@ const definition = [
                     "const x = 10;",
                     "const y = 0;",
                     "const z = x / y;",
+                    "console.log(z)",
                     "//// Code output",
                     "Infinity"
+                ]
+            }
+        ],
+        "class constructor": [
+            {
+                "word": "Class Constructor",
+                "meaning": "A blueprint for creating objects in object-oriented programming.",
+                "example": [
+                    "class Person {",
+                    "constructor(name, age) {",
+                    "this.name = name;",
+                    "this.age = age;",
+                    "}",
+                    "greet() {",
+                    "console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);",
+                    "}",
+                    "}",
+                    "const john = new Person('John', 30);",
+                    "john.greet();",
+                    "//// Code output",
+                    "Hello, my name is John and I am 30 years old.",
                 ]
             }
         ],
