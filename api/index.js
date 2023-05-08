@@ -10,8 +10,8 @@ const definition = require("./data/definitions");
 // ******* Middlewares *********
 app.use(bodyParser.urlencoded({extended:true}));
 
-app.get("/api/v1/parenthesis", (req, res)=>{
-    res.status(200).json(definition[0].parenthesis)
+app.get("/api/v1/algorithm", (req, res)=>{
+    res.status(200).json(definition[0].algorithm)
 })
 app.listen(port, ()=>{
     console.log(`Coding dictionary server started on port ${port}`);
