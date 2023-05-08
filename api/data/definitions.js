@@ -70,6 +70,24 @@ const definition = [
         ],
 
         //b
+        "boolean": [
+            {
+                "word": "Boolean",
+                "meaning": " A data type that can have one of two possible values, usually denoted as true or false. ",
+                "example": [
+                    "var isSunny = true;",
+                    "let hasCar = false;",
+                    "const isRaining = true;",
+                    "console.log(isSunny)",
+                    "console.log(hasCar)",
+                    "console.log(isRaining)",
+                    "//// Code output",
+                    "true",
+                    "false",
+                    "true",
+                ]
+            }
+        ],
         //c
         "curly braces":[
             {
