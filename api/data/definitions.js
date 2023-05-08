@@ -88,6 +88,19 @@ const definition = [
                 ]
             }
         ],
+        "bug": [
+            {
+                "word": "Bug",
+                "meaning": "An error or flaw in a computer program that causes it to behave unexpectedly or crash. ",
+                "example": [
+                    "const x = 10;",
+                    "const y = 0;",
+                    "const z = x / y;",
+                    "//// Code output",
+                    "Infinity"
+                ]
+            }
+        ],
         //c
         "curly braces":[
             {
