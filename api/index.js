@@ -10,7 +10,9 @@ const router = require("./routes/handler");
 // ******* Middlewares *********
 app.use(bodyParser.urlencoded({extended:true}));
 
-app.use(router)
+app.get("/api/v1/parenthesis", (req, res)=>{
+    res.status(200).json(definition[0].parenthesis)
+})
 app.listen(port, ()=>{
     console.log(`Coding dictionary server started on port ${port}`);
 })
